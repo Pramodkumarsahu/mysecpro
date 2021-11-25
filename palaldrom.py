@@ -14,7 +14,7 @@ res=0
 while num>0:
    r=num%10
    res=res*10+r
-   num//=10
+   num=num//10
 if temp ==res:
    print('num is palindrom')
 else:
